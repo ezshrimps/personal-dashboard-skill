@@ -1,0 +1,12 @@
+{
+  "preset": "worker",
+  "lang": "en",
+  "currency": "GBP",
+  "weekStart": 1,
+  "title": "Sam's dashboard",
+  "name": "Sam",
+  "about": "Product designer in London, hybrid office Tue-Thu.",
+  "budget": 1800,
+  "bankQuery": "from:alerts@monzo.com",
+  "addBlocks": { "home": ["calendar"] }
+}

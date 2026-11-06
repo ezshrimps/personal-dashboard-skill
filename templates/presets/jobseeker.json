@@ -1,0 +1,139 @@
+{
+  "id": "jobseeker",
+  "name": {
+    "zh": "求职者",
+    "en": "Job seeker"
+  },
+  "desc": {
+    "zh": "投递追踪、截止日、每日投递数",
+    "en": "Application tracker, deadlines, daily application count"
+  },
+  "layout": {
+    "pages": [
+      {
+        "id": "home",
+        "name": "",
+        "blocks": [
+          "entry",
+          "todos",
+          "jobs",
+          "deadlines",
+          "checks",
+          "tracker:tapps"
+        ]
+      },
+      {
+        "id": "money",
+        "name": "",
+        "blocks": [
+          "spend",
+          "txns",
+          "recurring"
+        ]
+      },
+      {
+        "id": "plan",
+        "name": "",
+        "blocks": [
+          "week",
+          "timeline",
+          "calendar",
+          "review"
+        ]
+      }
+    ]
+  },
+  "checks": [
+    {
+      "k": "apply",
+      "n": {
+        "zh": "投递",
+        "en": "Apply"
+      },
+      "goal": 5
+    },
+    {
+      "k": "prep",
+      "n": {
+        "zh": "刷题 / 练面试",
+        "en": "Interview practice"
+      },
+      "goal": 5
+    },
+    {
+      "k": "net",
+      "n": {
+        "zh": "联系一个人",
+        "en": "Reach out to one person"
+      },
+      "goal": 3
+    }
+  ],
+  "trackers": [
+    {
+      "id": "tapps",
+      "name": {
+        "zh": "今日投递",
+        "en": "Applications"
+      },
+      "kind": "count",
+      "unit": {
+        "zh": "份",
+        "en": ""
+      },
+      "goal": 5,
+      "period": "day",
+      "chart": "bar"
+    }
+  ],
+  "goals": {
+    "workout": 2
+  },
+  "workouts": {
+    "zh": [
+      "健身",
+      "跑步"
+    ],
+    "en": [
+      "Gym",
+      "Run"
+    ]
+  },
+  "rotation": [],
+  "food": {
+    "protein": 0,
+    "kcal": 0
+  },
+  "ui": {
+    "scale": 1
+  },
+  "templates": {
+    "zh": [
+      "08:30-09:00 起床、早餐 #rest\n09:00-11:30 投递和改简历 #work\n12:00-13:00 午饭 #rest\n13:30-16:00 刷题 / 练面试 #study\n18:00-19:00 晚饭 #rest",
+      "08:30-09:00 起床、早餐 #rest\n09:00-11:30 投递和改简历 #work\n12:00-13:00 午饭 #rest\n13:30-16:00 刷题 / 练面试 #study\n18:00-19:00 晚饭 #rest",
+      "08:30-09:00 起床、早餐 #rest\n09:00-11:30 投递和改简历 #work\n12:00-13:00 午饭 #rest\n13:30-16:00 刷题 / 练面试 #study\n18:00-19:00 晚饭 #rest",
+      "08:30-09:00 起床、早餐 #rest\n09:00-11:30 投递和改简历 #work\n12:00-13:00 午饭 #rest\n13:30-16:00 刷题 / 练面试 #study\n18:00-19:00 晚饭 #rest",
+      "08:30-09:00 起床、早餐 #rest\n09:00-11:30 投递和改简历 #work\n12:00-13:00 午饭 #rest\n13:30-16:00 刷题 / 练面试 #study\n18:00-19:00 晚饭 #rest",
+      "09:30-10:00 起床、早餐 #rest\n12:00-13:00 午饭 #rest\n18:00-19:00 晚饭 #rest",
+      "09:30-10:00 起床、早餐 #rest\n12:00-13:00 午饭 #rest\n18:00-19:00 晚饭 #rest"
+    ],
+    "en": [
+      "08:30-09:00 Wake up, breakfast #rest\n09:00-11:30 Applications, resume #work\n12:00-13:00 Lunch #rest\n13:30-16:00 Interview practice #study\n18:00-19:00 Dinner #rest",
+      "08:30-09:00 Wake up, breakfast #rest\n09:00-11:30 Applications, resume #work\n12:00-13:00 Lunch #rest\n13:30-16:00 Interview practice #study\n18:00-19:00 Dinner #rest",
+      "08:30-09:00 Wake up, breakfast #rest\n09:00-11:30 Applications, resume #work\n12:00-13:00 Lunch #rest\n13:30-16:00 Interview practice #study\n18:00-19:00 Dinner #rest",
+      "08:30-09:00 Wake up, breakfast #rest\n09:00-11:30 Applications, resume #work\n12:00-13:00 Lunch #rest\n13:30-16:00 Interview practice #study\n18:00-19:00 Dinner #rest",
+      "08:30-09:00 Wake up, breakfast #rest\n09:00-11:30 Applications, resume #work\n12:00-13:00 Lunch #rest\n13:30-16:00 Interview practice #study\n18:00-19:00 Dinner #rest",
+      "09:30-10:00 Wake up, breakfast #rest\n12:00-13:00 Lunch #rest\n18:00-19:00 Dinner #rest",
+      "09:30-10:00 Wake up, breakfast #rest\n12:00-13:00 Lunch #rest\n18:00-19:00 Dinner #rest"
+    ]
+  },
+  "brief": [
+    "focus",
+    "calendar",
+    "jobs",
+    "deadlines",
+    "todos",
+    "trackers",
+    "spend"
+  ]
+}

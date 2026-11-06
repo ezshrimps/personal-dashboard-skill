@@ -1,0 +1,102 @@
+{
+  "id": "family",
+  "name": {
+    "zh": "家庭 / 年长用户",
+    "en": "Family / older users"
+  },
+  "desc": {
+    "zh": "吃药与复诊提醒、固定支出、大字号、精简界面",
+    "en": "Medication and appointment reminders, bills, large text, fewer blocks"
+  },
+  "layout": {
+    "pages": [
+      {
+        "id": "home",
+        "name": "",
+        "blocks": [
+          "entry",
+          "todos",
+          "calendar",
+          "spend",
+          "tracker:tmeds",
+          "tracker:tbp"
+        ]
+      }
+    ]
+  },
+  "checks": [],
+  "trackers": [
+    {
+      "id": "tmeds",
+      "name": {
+        "zh": "按时吃药",
+        "en": "Took my medicine"
+      },
+      "kind": "check",
+      "unit": {
+        "zh": "",
+        "en": ""
+      },
+      "goal": 1,
+      "period": "day",
+      "chart": "streak"
+    },
+    {
+      "id": "tbp",
+      "name": {
+        "zh": "血压（高压）",
+        "en": "Blood pressure (systolic)"
+      },
+      "kind": "number",
+      "unit": {
+        "zh": "mmHg",
+        "en": "mmHg"
+      },
+      "goal": 0,
+      "period": "day",
+      "chart": "bar"
+    }
+  ],
+  "goals": {
+    "workout": 0
+  },
+  "workouts": {
+    "zh": [],
+    "en": []
+  },
+  "rotation": [],
+  "food": {
+    "protein": 0,
+    "kcal": 0
+  },
+  "ui": {
+    "scale": 1.3
+  },
+  "templates": {
+    "zh": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "en": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  "brief": [
+    "focus",
+    "calendar",
+    "todos",
+    "trackers",
+    "spend"
+  ]
+}

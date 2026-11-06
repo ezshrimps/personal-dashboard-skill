@@ -1,0 +1,142 @@
+{
+  "id": "health",
+  "name": {
+    "zh": "健康优先",
+    "en": "Health first"
+  },
+  "desc": {
+    "zh": "睡眠、运动、饮食、体重、吃药",
+    "en": "Sleep, exercise, food, weight, medication"
+  },
+  "layout": {
+    "pages": [
+      {
+        "id": "home",
+        "name": "",
+        "blocks": [
+          "entry",
+          "sleep",
+          "workout",
+          "food",
+          "checks",
+          "todos",
+          "tracker:tmeds"
+        ]
+      },
+      {
+        "id": "health",
+        "name": "",
+        "blocks": [
+          "weight",
+          "week",
+          "timeline"
+        ]
+      },
+      {
+        "id": "money",
+        "name": "",
+        "blocks": [
+          "spend",
+          "txns",
+          "recurring"
+        ]
+      }
+    ]
+  },
+  "checks": [
+    {
+      "k": "water",
+      "n": {
+        "zh": "喝够水",
+        "en": "Enough water"
+      },
+      "goal": 7
+    },
+    {
+      "k": "stretch",
+      "n": {
+        "zh": "拉伸",
+        "en": "Stretch"
+      },
+      "goal": 5
+    },
+    {
+      "k": "nosugar",
+      "n": {
+        "zh": "不喝含糖饮料",
+        "en": "No sugary drinks"
+      },
+      "goal": 7
+    }
+  ],
+  "trackers": [
+    {
+      "id": "tmeds",
+      "name": {
+        "zh": "吃药 / 维生素",
+        "en": "Meds / vitamins"
+      },
+      "kind": "check",
+      "unit": {
+        "zh": "",
+        "en": ""
+      },
+      "goal": 1,
+      "period": "day",
+      "chart": "streak"
+    }
+  ],
+  "goals": {
+    "workout": 4
+  },
+  "workouts": {
+    "zh": [
+      "力量",
+      "有氧",
+      "瑜伽",
+      "散步"
+    ],
+    "en": [
+      "Strength",
+      "Cardio",
+      "Yoga",
+      "Walk"
+    ]
+  },
+  "rotation": [],
+  "food": {
+    "protein": 100,
+    "kcal": 2000
+  },
+  "ui": {
+    "scale": 1
+  },
+  "templates": {
+    "zh": [
+      "07:00-07:30 起床、早餐 #rest\n12:00-13:00 午饭 #rest\n18:00-19:00 运动 #sport\n19:00-20:00 晚饭 #rest\n22:30-23:00 准备睡觉 #rest",
+      "07:00-07:30 起床、早餐 #rest\n12:00-13:00 午饭 #rest\n18:00-19:00 运动 #sport\n19:00-20:00 晚饭 #rest\n22:30-23:00 准备睡觉 #rest",
+      "07:00-07:30 起床、早餐 #rest\n12:00-13:00 午饭 #rest\n18:00-19:00 运动 #sport\n19:00-20:00 晚饭 #rest\n22:30-23:00 准备睡觉 #rest",
+      "07:00-07:30 起床、早餐 #rest\n12:00-13:00 午饭 #rest\n18:00-19:00 运动 #sport\n19:00-20:00 晚饭 #rest\n22:30-23:00 准备睡觉 #rest",
+      "07:00-07:30 起床、早餐 #rest\n12:00-13:00 午饭 #rest\n18:00-19:00 运动 #sport\n19:00-20:00 晚饭 #rest\n22:30-23:00 准备睡觉 #rest",
+      "08:00-08:30 起床、早餐 #rest\n10:00-11:00 运动 #sport\n12:00-13:00 午饭 #rest\n18:00-19:00 晚饭 #rest",
+      "08:00-08:30 起床、早餐 #rest\n10:00-11:00 运动 #sport\n12:00-13:00 午饭 #rest\n18:00-19:00 晚饭 #rest"
+    ],
+    "en": [
+      "07:00-07:30 Wake up, breakfast #rest\n12:00-13:00 Lunch #rest\n18:00-19:00 Exercise #sport\n19:00-20:00 Dinner #rest\n22:30-23:00 Wind down #rest",
+      "07:00-07:30 Wake up, breakfast #rest\n12:00-13:00 Lunch #rest\n18:00-19:00 Exercise #sport\n19:00-20:00 Dinner #rest\n22:30-23:00 Wind down #rest",
+      "07:00-07:30 Wake up, breakfast #rest\n12:00-13:00 Lunch #rest\n18:00-19:00 Exercise #sport\n19:00-20:00 Dinner #rest\n22:30-23:00 Wind down #rest",
+      "07:00-07:30 Wake up, breakfast #rest\n12:00-13:00 Lunch #rest\n18:00-19:00 Exercise #sport\n19:00-20:00 Dinner #rest\n22:30-23:00 Wind down #rest",
+      "07:00-07:30 Wake up, breakfast #rest\n12:00-13:00 Lunch #rest\n18:00-19:00 Exercise #sport\n19:00-20:00 Dinner #rest\n22:30-23:00 Wind down #rest",
+      "08:00-08:30 Wake up, breakfast #rest\n10:00-11:00 Exercise #sport\n12:00-13:00 Lunch #rest\n18:00-19:00 Dinner #rest",
+      "08:00-08:30 Wake up, breakfast #rest\n10:00-11:00 Exercise #sport\n12:00-13:00 Lunch #rest\n18:00-19:00 Dinner #rest"
+    ]
+  },
+  "brief": [
+    "focus",
+    "sleep",
+    "workout",
+    "food",
+    "trackers",
+    "todos"
+  ]
+}

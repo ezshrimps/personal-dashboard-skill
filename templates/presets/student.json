@@ -1,0 +1,141 @@
+{
+  "id": "student",
+  "name": {
+    "zh": "学生",
+    "en": "Student"
+  },
+  "desc": {
+    "zh": "上课、作业、考试倒计时、生活费",
+    "en": "Classes, homework, exam countdowns, allowance budget"
+  },
+  "layout": {
+    "pages": [
+      {
+        "id": "home",
+        "name": "",
+        "blocks": [
+          "entry",
+          "now",
+          "todos",
+          "deadlines",
+          "checks",
+          "timeline",
+          "tracker:tvocab"
+        ]
+      },
+      {
+        "id": "money",
+        "name": "",
+        "blocks": [
+          "spend",
+          "txns",
+          "recurring"
+        ]
+      },
+      {
+        "id": "plan",
+        "name": "",
+        "blocks": [
+          "week",
+          "review",
+          "calendar"
+        ]
+      }
+    ]
+  },
+  "checks": [
+    {
+      "k": "study",
+      "n": {
+        "zh": "自习 / 复习",
+        "en": "Study session"
+      },
+      "goal": 5
+    },
+    {
+      "k": "read",
+      "n": {
+        "zh": "阅读",
+        "en": "Reading"
+      },
+      "goal": 5
+    },
+    {
+      "k": "plan",
+      "n": {
+        "zh": "做明天的计划",
+        "en": "Plan tomorrow"
+      },
+      "goal": 7
+    }
+  ],
+  "trackers": [
+    {
+      "id": "tvocab",
+      "name": {
+        "zh": "背单词",
+        "en": "Vocabulary"
+      },
+      "kind": "count",
+      "unit": {
+        "zh": "个",
+        "en": "words"
+      },
+      "goal": 30,
+      "period": "day",
+      "chart": "bar"
+    }
+  ],
+  "goals": {
+    "workout": 2
+  },
+  "workouts": {
+    "zh": [
+      "跑步",
+      "球类",
+      "健身"
+    ],
+    "en": [
+      "Run",
+      "Sports",
+      "Gym"
+    ]
+  },
+  "rotation": [],
+  "food": {
+    "protein": 0,
+    "kcal": 0
+  },
+  "ui": {
+    "scale": 1
+  },
+  "templates": {
+    "zh": [
+      "08:00-08:30 起床、早餐 #rest\n09:00-12:00 上课 #study\n12:00-13:00 午饭 #rest\n14:00-17:00 上课 / 实验 #study\n18:00-19:00 晚饭 #rest\n19:30-21:30 自习 #study",
+      "08:00-08:30 起床、早餐 #rest\n09:00-12:00 上课 #study\n12:00-13:00 午饭 #rest\n14:00-17:00 上课 / 实验 #study\n18:00-19:00 晚饭 #rest\n19:30-21:30 自习 #study",
+      "08:00-08:30 起床、早餐 #rest\n09:00-12:00 上课 #study\n12:00-13:00 午饭 #rest\n14:00-17:00 上课 / 实验 #study\n18:00-19:00 晚饭 #rest\n19:30-21:30 自习 #study",
+      "08:00-08:30 起床、早餐 #rest\n09:00-12:00 上课 #study\n12:00-13:00 午饭 #rest\n14:00-17:00 上课 / 实验 #study\n18:00-19:00 晚饭 #rest\n19:30-21:30 自习 #study",
+      "08:00-08:30 起床、早餐 #rest\n09:00-12:00 上课 #study\n12:00-13:00 午饭 #rest\n14:00-17:00 上课 / 实验 #study\n18:00-19:00 晚饭 #rest\n19:30-21:30 自习 #study",
+      "09:30-10:00 起床、早餐 #rest\n12:00-13:00 午饭 #rest\n18:00-19:00 晚饭 #rest",
+      "09:30-10:00 起床、早餐 #rest\n12:00-13:00 午饭 #rest\n18:00-19:00 晚饭 #rest"
+    ],
+    "en": [
+      "08:00-08:30 Wake up, breakfast #rest\n09:00-12:00 Classes #study\n12:00-13:00 Lunch #rest\n14:00-17:00 Classes / lab #study\n18:00-19:00 Dinner #rest\n19:30-21:30 Study #study",
+      "08:00-08:30 Wake up, breakfast #rest\n09:00-12:00 Classes #study\n12:00-13:00 Lunch #rest\n14:00-17:00 Classes / lab #study\n18:00-19:00 Dinner #rest\n19:30-21:30 Study #study",
+      "08:00-08:30 Wake up, breakfast #rest\n09:00-12:00 Classes #study\n12:00-13:00 Lunch #rest\n14:00-17:00 Classes / lab #study\n18:00-19:00 Dinner #rest\n19:30-21:30 Study #study",
+      "08:00-08:30 Wake up, breakfast #rest\n09:00-12:00 Classes #study\n12:00-13:00 Lunch #rest\n14:00-17:00 Classes / lab #study\n18:00-19:00 Dinner #rest\n19:30-21:30 Study #study",
+      "08:00-08:30 Wake up, breakfast #rest\n09:00-12:00 Classes #study\n12:00-13:00 Lunch #rest\n14:00-17:00 Classes / lab #study\n18:00-19:00 Dinner #rest\n19:30-21:30 Study #study",
+      "09:30-10:00 Wake up, breakfast #rest\n12:00-13:00 Lunch #rest\n18:00-19:00 Dinner #rest",
+      "09:30-10:00 Wake up, breakfast #rest\n12:00-13:00 Lunch #rest\n18:00-19:00 Dinner #rest"
+    ]
+  },
+  "brief": [
+    "focus",
+    "calendar",
+    "deadlines",
+    "todos",
+    "checks",
+    "trackers",
+    "spend"
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "id": "worker",
+  "name": {
+    "zh": "上班族",
+    "en": "Office worker"
+  },
+  "desc": {
+    "zh": "会议日程、待办、运动、记账、睡眠",
+    "en": "Meetings, to-dos, exercise, spending, sleep"
+  },
+  "layout": {
+    "pages": [
+      {
+        "id": "home",
+        "name": "",
+        "blocks": [
+          "entry",
+          "now",
+          "todos",
+          "timeline",
+          "checks",
+          "sleep"
+        ]
+      },
+      {
+        "id": "money",
+        "name": "",
+        "blocks": [
+          "spend",
+          "txns",
+          "recurring",
+          "savings",
+          "insight"
+        ]
+      },
+      {
+        "id": "health",
+        "name": "",
+        "blocks": [
+          "workout",
+          "sleep",
+          "weight",
+          "week"
+        ]
+      }
+    ]
+  },
+  "checks": [
+    {
+      "k": "read",
+      "n": {
+        "zh": "阅读",
+        "en": "Reading"
+      },
+      "goal": 5
+    },
+    {
+      "k": "plan",
+      "n": {
+        "zh": "做明天的计划",
+        "en": "Plan tomorrow"
+      },
+      "goal": 5
+    }
+  ],
+  "trackers": [],
+  "goals": {
+    "workout": 3
+  },
+  "workouts": {
+    "zh": [
+      "健身",
+      "跑步",
+      "瑜伽",
+      "游泳"
+    ],
+    "en": [
+      "Gym",
+      "Run",
+      "Yoga",
+      "Swim"
+    ]
+  },
+  "rotation": [],
+  "food": {
+    "protein": 0,
+    "kcal": 0
+  },
+  "ui": {
+    "scale": 1
+  },
+  "templates": {
+    "zh": [
+      "07:30-08:00 起床、早餐 #rest\n08:30-09:15 通勤 #transit\n09:30-12:00 专注工作 #work\n12:00-13:00 午饭 #rest\n13:00-18:00 工作 #work\n18:00-18:45 通勤 #transit\n19:00-20:00 晚饭 #rest",
+      "07:30-08:00 起床、早餐 #rest\n08:30-09:15 通勤 #transit\n09:30-12:00 专注工作 #work\n12:00-13:00 午饭 #rest\n13:00-18:00 工作 #work\n18:00-18:45 通勤 #transit\n19:00-20:00 晚饭 #rest",
+      "07:30-08:00 起床、早餐 #rest\n08:30-09:15 通勤 #transit\n09:30-12:00 专注工作 #work\n12:00-13:00 午饭 #rest\n13:00-18:00 工作 #work\n18:00-18:45 通勤 #transit\n19:00-20:00 晚饭 #rest",
+      "07:30-08:00 起床、早餐 #rest\n08:30-09:15 通勤 #transit\n09:30-12:00 专注工作 #work\n12:00-13:00 午饭 #rest\n13:00-18:00 工作 #work\n18:00-18:45 通勤 #transit\n19:00-20:00 晚饭 #rest",
+      "07:30-08:00 起床、早餐 #rest\n08:30-09:15 通勤 #transit\n09:30-12:00 专注工作 #work\n12:00-13:00 午饭 #rest\n13:00-18:00 工作 #work\n18:00-18:45 通勤 #transit\n19:00-20:00 晚饭 #rest",
+      "09:30-10:00 起床、早餐 #rest\n12:00-13:00 午饭 #rest\n18:00-19:00 晚饭 #rest",
+      "09:30-10:00 起床、早餐 #rest\n12:00-13:00 午饭 #rest\n18:00-19:00 晚饭 #rest"
+    ],
+    "en": [
+      "07:30-08:00 Wake up, breakfast #rest\n08:30-09:15 Commute #transit\n09:30-12:00 Focus work #work\n12:00-13:00 Lunch #rest\n13:00-18:00 Work #work\n18:00-18:45 Commute #transit\n19:00-20:00 Dinner #rest",
+      "07:30-08:00 Wake up, breakfast #rest\n08:30-09:15 Commute #transit\n09:30-12:00 Focus work #work\n12:00-13:00 Lunch #rest\n13:00-18:00 Work #work\n18:00-18:45 Commute #transit\n19:00-20:00 Dinner #rest",
+      "07:30-08:00 Wake up, breakfast #rest\n08:30-09:15 Commute #transit\n09:30-12:00 Focus work #work\n12:00-13:00 Lunch #rest\n13:00-18:00 Work #work\n18:00-18:45 Commute #transit\n19:00-20:00 Dinner #rest",
+      "07:30-08:00 Wake up, breakfast #rest\n08:30-09:15 Commute #transit\n09:30-12:00 Focus work #work\n12:00-13:00 Lunch #rest\n13:00-18:00 Work #work\n18:00-18:45 Commute #transit\n19:00-20:00 Dinner #rest",
+      "07:30-08:00 Wake up, breakfast #rest\n08:30-09:15 Commute #transit\n09:30-12:00 Focus work #work\n12:00-13:00 Lunch #rest\n13:00-18:00 Work #work\n18:00-18:45 Commute #transit\n19:00-20:00 Dinner #rest",
+      "09:30-10:00 Wake up, breakfast #rest\n12:00-13:00 Lunch #rest\n18:00-19:00 Dinner #rest",
+      "09:30-10:00 Wake up, breakfast #rest\n12:00-13:00 Lunch #rest\n18:00-19:00 Dinner #rest"
+    ]
+  },
+  "brief": [
+    "focus",
+    "calendar",
+    "todos",
+    "sleep",
+    "workout",
+    "spend"
+  ]
+}

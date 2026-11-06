@@ -1,0 +1,135 @@
+{
+  "id": "freelancer",
+  "name": {
+    "zh": "自由职业 / 创业",
+    "en": "Freelancer / founder"
+  },
+  "desc": {
+    "zh": "收入、项目截止日、待办、开票提醒",
+    "en": "Income, project deadlines, to-dos, invoice reminders"
+  },
+  "layout": {
+    "pages": [
+      {
+        "id": "home",
+        "name": "",
+        "blocks": [
+          "entry",
+          "now",
+          "todos",
+          "deadlines",
+          "timeline",
+          "tracker:tbill"
+        ]
+      },
+      {
+        "id": "money",
+        "name": "",
+        "blocks": [
+          "income",
+          "spend",
+          "txns",
+          "recurring",
+          "savings",
+          "insight"
+        ]
+      },
+      {
+        "id": "plan",
+        "name": "",
+        "blocks": [
+          "week",
+          "calendar",
+          "review"
+        ]
+      }
+    ]
+  },
+  "checks": [
+    {
+      "k": "deep",
+      "n": {
+        "zh": "2 小时深度工作",
+        "en": "2h deep work"
+      },
+      "goal": 5
+    },
+    {
+      "k": "plan",
+      "n": {
+        "zh": "做明天的计划",
+        "en": "Plan tomorrow"
+      },
+      "goal": 5
+    }
+  ],
+  "trackers": [
+    {
+      "id": "tbill",
+      "name": {
+        "zh": "可计费时长",
+        "en": "Billable hours"
+      },
+      "kind": "number",
+      "unit": {
+        "zh": "小时",
+        "en": "h"
+      },
+      "goal": 25,
+      "period": "week",
+      "chart": "bar"
+    }
+  ],
+  "goals": {
+    "workout": 3
+  },
+  "workouts": {
+    "zh": [
+      "健身",
+      "跑步",
+      "瑜伽"
+    ],
+    "en": [
+      "Gym",
+      "Run",
+      "Yoga"
+    ]
+  },
+  "rotation": [],
+  "food": {
+    "protein": 0,
+    "kcal": 0
+  },
+  "ui": {
+    "scale": 1
+  },
+  "templates": {
+    "zh": [
+      "08:00-08:30 起床、早餐 #rest\n09:00-11:30 深度工作 #work\n12:00-13:00 午饭 #rest\n13:30-15:00 沟通和会议 #meet\n15:00-17:30 项目 #work\n18:30-19:30 晚饭 #rest",
+      "08:00-08:30 起床、早餐 #rest\n09:00-11:30 深度工作 #work\n12:00-13:00 午饭 #rest\n13:30-15:00 沟通和会议 #meet\n15:00-17:30 项目 #work\n18:30-19:30 晚饭 #rest",
+      "08:00-08:30 起床、早餐 #rest\n09:00-11:30 深度工作 #work\n12:00-13:00 午饭 #rest\n13:30-15:00 沟通和会议 #meet\n15:00-17:30 项目 #work\n18:30-19:30 晚饭 #rest",
+      "08:00-08:30 起床、早餐 #rest\n09:00-11:30 深度工作 #work\n12:00-13:00 午饭 #rest\n13:30-15:00 沟通和会议 #meet\n15:00-17:30 项目 #work\n18:30-19:30 晚饭 #rest",
+      "08:00-08:30 起床、早餐 #rest\n09:00-11:30 深度工作 #work\n12:00-13:00 午饭 #rest\n13:30-15:00 沟通和会议 #meet\n15:00-17:30 项目 #work\n18:30-19:30 晚饭 #rest",
+      "09:30-10:00 起床、早餐 #rest\n12:00-13:00 午饭 #rest\n18:00-19:00 晚饭 #rest",
+      "09:30-10:00 起床、早餐 #rest\n12:00-13:00 午饭 #rest\n18:00-19:00 晚饭 #rest"
+    ],
+    "en": [
+      "08:00-08:30 Wake up, breakfast #rest\n09:00-11:30 Deep work #work\n12:00-13:00 Lunch #rest\n13:30-15:00 Calls and meetings #meet\n15:00-17:30 Projects #work\n18:30-19:30 Dinner #rest",
+      "08:00-08:30 Wake up, breakfast #rest\n09:00-11:30 Deep work #work\n12:00-13:00 Lunch #rest\n13:30-15:00 Calls and meetings #meet\n15:00-17:30 Projects #work\n18:30-19:30 Dinner #rest",
+      "08:00-08:30 Wake up, breakfast #rest\n09:00-11:30 Deep work #work\n12:00-13:00 Lunch #rest\n13:30-15:00 Calls and meetings #meet\n15:00-17:30 Projects #work\n18:30-19:30 Dinner #rest",
+      "08:00-08:30 Wake up, breakfast #rest\n09:00-11:30 Deep work #work\n12:00-13:00 Lunch #rest\n13:30-15:00 Calls and meetings #meet\n15:00-17:30 Projects #work\n18:30-19:30 Dinner #rest",
+      "08:00-08:30 Wake up, breakfast #rest\n09:00-11:30 Deep work #work\n12:00-13:00 Lunch #rest\n13:30-15:00 Calls and meetings #meet\n15:00-17:30 Projects #work\n18:30-19:30 Dinner #rest",
+      "09:30-10:00 Wake up, breakfast #rest\n12:00-13:00 Lunch #rest\n18:00-19:00 Dinner #rest",
+      "09:30-10:00 Wake up, breakfast #rest\n12:00-13:00 Lunch #rest\n18:00-19:00 Dinner #rest"
+    ]
+  },
+  "brief": [
+    "focus",
+    "calendar",
+    "deadlines",
+    "todos",
+    "income",
+    "spend",
+    "trackers"
+  ]
+}

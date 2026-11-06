@@ -1,0 +1,11 @@
+{
+  "preset": "student",
+  "lang": "zh",
+  "currency": "CNY",
+  "weekStart": 1,
+  "title": "小林的面板",
+  "name": "小林",
+  "about": "大二学生，在上海读计算机，明年要考雅思。",
+  "budget": 2500,
+  "trackers": [{ "id": "twater", "name": "喝水", "kind": "count", "unit": "杯", "goal": 8, "period": "day", "chart": "bar" }]
+}
